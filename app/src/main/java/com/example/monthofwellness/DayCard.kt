@@ -77,8 +77,10 @@ fun DayCardPreview() {
     }
 }
 
-//@Composable
-//@Preview
-//fun DayCardPreviewDark() {
-//
-//}
+@Composable
+@Preview
+fun DayCardPreviewDark() {
+    MonthOfWellnessTheme(darkTheme = true) {
+        DayCard(1, R.string.day_1_title, R.drawable.day_1_image, R.string.day_1_description)
+    }
+}
