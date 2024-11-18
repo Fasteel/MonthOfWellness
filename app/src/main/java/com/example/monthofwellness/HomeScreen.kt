@@ -10,9 +10,9 @@ import androidx.compose.ui.res.dimensionResource
 import com.example.monthofwellness.data.repository.DayRepository
 
 @Composable
-fun HomeScreen() {
+fun HomeScreen(modifier: Modifier = Modifier) {
     LazyColumn(
-        modifier = Modifier.padding(dimensionResource(R.dimen.big)),
+        modifier = modifier.padding(dimensionResource(R.dimen.big)),
         verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.medium))
     ) {
         itemsIndexed(DayRepository.data) { i, day ->

@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">MonthOfWellness</string>
+    <string name="top_bar_title">30 Days Of Wellness</string>
     <string name="day_1_title">Do one kata</string>
     <string name="day_1_description">Pick a random Kotlin kata to do each day.</string>
     <string name="day_2_title">Listen to my favorite podcast</string>
